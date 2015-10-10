@@ -3,7 +3,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="stylesheets/app.css">
+  <title>Kinext</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <script src="javascripts/vendor.js"></script>
   <script src="javascripts/app.js"></script>
   <script>
@@ -13,56 +16,94 @@
 </head>
 <body>
   <div class="firstScreen">
-    <div class="container">
-      <div class="firstScreen--navbar">
-        <div class="firstScreen--navbar-logo"><img src="images/logo.png"></div>
-        <div class="firstScreen--navbar-list">
-          <div class="firstScreen--navbar-list-item"><a href="#">ПРИГЛАШАЕМ НА ОТКРЫТИЕ</a></div>
-          <div class="firstScreen--navbar-list-item"><a href="#">КОНТАКТЫ</a></div>
-          <div class="firstScreen--navbar-list-item"><a href="#">+7 (622) 555-72-46</a></div>
+    <div class="firstScreen-logo"><img src="images/logo.png"></div>
+    <div class="firstScreen--navbar">
+      <div class="navbar-item first-link active"><a href="#">ПРИГЛАШЕНИЕ НА ОТКРЫТИЕ</a></div>
+      <div class="navbar-item second-link"><a href="#">КОНТАКТЫ</a></div>
+      <div class="navbar-item"><a href="#">8 800 100 34 88</a></div>
+    </div>
+    <div class="firstScreen--form">
+      <form>
+        <div class="firstScreen--form-title">ЗАЯВКА НА ПОКУПКУ КАРТЫ</div>
+        <label>
+          <input placeholder="Имя" class="firstname">
+          <input placeholder="Фамилия" class="lastname">
+        </label>
+        <label>
+          <input placeholder="E-mail" class="email">
+          <input placeholder="Телефон" class="phone">
+        </label>
+        <label>
+          <input placeholder="Удобная дата" class="datepicker">
+          <input placeholder="Удобное время" class="timepicker">
+        </label>
+      </form>
+      <div class="firstScreen--form-submit">
+        <div class="button">Отправить</div>
+      </div>
+    </div>
+    <div class="firstScreen--row">
+      <div class="firstScreen--left">
+        <div class="container">
+          <div class="firstScreen--left-title">
+          </div>
+          <div class="firstScreen--left-text">Первый в Краснодаре высокотехнологичный фитнес клуб,  в котором системный подход и новейшие разработки в области фитнеса, тесно связаны с современным медицинским сопровождением, программами питания и SPA процедурами, позволят Вам реализовать свои самые амбициозные цели  и желания быстро и с максимальным комфортом для Вас. </div>
+          <div class="firstScreen--left-footer">
+            <div class="firstScreen--left-footer-button"><span>Оставить заявку</span></div>
+          </div>
         </div>
       </div>
-      <div class="firstScreen--headers">
-        <div class="firstScreen--headers-title">ФИТНЕС<br>ВЫСОКИХ<br>ДОСТИЖЕНИЙ</div>
-        <div class="firstScreen--headers-text">
-          <p>Первый в Краснодаре высокотехнологичный фитнес клуб,</p><br>
-          <p>в котором системный подход и новейшие разработки в области фитнеса,</p><br>
-          <p>тесно связаны с современным медицинским сопровождением, программами</p>
-          <p>питания и SPA процедурами, позволят Вам реализовать свои самые</p>
-          <p>амбициозные цели и желания быстро и с максимальным комфортом для Вас.</p>
+      <div class="firstScreen--right active-right">
+        <div class="container">
+          <div class="firstScreen--right-date">
+            <div class="number">59</div>
+            <div class="text"><span>ДО ОТКРЫТИЯ ОСТАЛОСЬ</span><span>ДНЕЙ</span></div>
+          </div>
+          <div class="firstScreen--right-slider">
+            <div class="slider--item">
+              <div class="slider--item-title">ПРИВИЛЕГИИ ПРИ ПОКУПКЕ КАРТЫ</div>
+              <div class="slider--item-text">
+                <div class="text">Особые условия на приобретение Клубного Членства</div>
+                <div class="text">30 дней заморозки</div>
+                <div class="text">7 гостевых визитов для Ваших друзей</div>
+                <div class="text">Эксклюзивная программа фитнес-коучинга на 2 месяца</div>
+              </div>
+            </div>
+            <div class="slider--item">
+              <div class="slider--item-title">Бассейн</div>
+              <div class="slider--item-text">
+                <div class="text">Первоклассный аква комплекс, состоящий из 25 метрового профессионального бассейна с 5 дорожками</div>
+                <div class="text">Система обучения плаванию, используемая для подготовки пловцов к Олимпийским играм</div>
+                <div class="text">Революция в плавании – силовые тренировки в воде Aqua Wall Gym</div>
+                <div class="text">Детский бассейн</div>
+              </div>
+            </div>
+            <div class="slider--item">
+              <div class="slider--item-title">Тренажерный зал</div>
+              <div class="slider--item-text">
+                <div class="text">Высокотехнологичные премиальные тренажеры Insignia и Discover от Life Fitness и Hammer Strength</div>
+                <div class="text">Встроенные цифровые дисплеи, технология LF Connect, открывающая для Вас безграничные возможности фитнеса — оснащение тренажёрного зала клуба «KINEXT» не знает равных.</div>
+                <div class="text">Тренажерный зал клуба «KINEXT» имеет почетный статус официального тренировочного центра Hammer Strength</div>
+              </div>
+            </div>
+            <div class="slider--item">
+              <div class="slider--item-title">Тренеры «KINEXT» – элита фитнеса</div>
+              <div class="slider--item-text">
+                <div class="text-2">«KINEXT» сотрудничает с ведущими российскими международными фитнес-школами и внимательно следит за текущим уровнем подготовки каждого тренера: в клубе разработана собственная уникальная система сертификации и оценки специалистов. Все персональные тренеры по фитнесу ежегодно в обязательном порядке проходят сертификацию, подтверждая свою квалификацию или переходя на новый, более высокий уровень.</div>
+              </div>
+            </div>
+            <div class="slide--item">
+              <div class="slider--item-title">Групповые фитнес программы</div>
+              <div class="slider--item-text">
+                <div class="text-2"> В клубе KINEXT представлено более 30 специально отобранных программ, в том числе доказавшие свою эффективность во всем мире программы  <a href="http://www.worldclass.ru/fitness_uslugi/">http://www.worldclass.ru/fitness_uslugi/</a> Romana’s Pilates, Trigger Point, Antigravity Yoga, а также авторские методики, разработанные экспертами KINEXT. </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="firstScreen--triangle"></div>
     </div>
   </div>
-  <div class="secondScreen">
-    <div class="container">
-      <div class="secondScreen--headers">Фитнес — это образ жизни<br>Добро пожаловать в клуб</div>
-      <div class="secondScreen--slider">
-        <div class="secondScreen--slider-item"><img src="images/picture-1.png"></div>
-        <div class="secondScreen--slider-item"><img src="images/picture-2.png"></div>
-        <div class="secondScreen--slider-item"><img src="images/picture-3.png"></div>
-      </div>
-    </div>
-  </div>
-  <div class="thirdScreen">
-    <div class="container">
-      <div class="thirdScreen--description">
-        <div class="thirdScreen--description-title">Тренеры «KINEXT» – элита фитнеса</div>
-        <div class="thirdScreen--description-text">
-          «KINEXT» сотрудничает с ведущими российскими международными фитнес-школами и внимательно следит
-          за текущим уровнем подготовки каждого тренера: в клубе разработана собственная уникальная система сертификации и оценки специалистов.
-          Все персональные тренеры по фитнесу ежегодно в обязательном порядке проходят сертификацию, подтверждая свою квалификацию или переходя на новый, более высокий уровень.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="container">
-      <div class="footer--description">
-        <div class="footer--description-title">До открытия осталось <span> 54 </span> дня</div>
-        <div class="footer--description-button">Оставить Заявку</div>
-      </div>
-    </div>
+  <div class="myPreloader myPreloader-active">
+    <div class="preloader loading"><span class="slice"></span><span class="slice"></span><span class="slice"></span><span class="slice"></span><span class="slice"></span><span class="slice"></span></div>
   </div>
 </body>
